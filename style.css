@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway:wght@500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#cvBody {
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+    background-image: url(./bgfcv.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.opacity {
+    position: absolute;
+    height: 94vh;
+    width: 440px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgba(214, 192, 166, 0.553);
+}
+
+.info {
+    position: relative;
+}
+
+.p-img {
+    margin-left: -40px;
+}
+
+.p-img::before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 257px;
+    width: .5px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+.p-img::after {
+    position: absolute;
+    content: "";
+    top: 188px;
+    left: 250px;
+    height: .5px;
+    width: 164px;
+    background-color: blanchedalmond;
+}
+
+.name {
+    margin-top: 30px;
+}
+
+.name h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    color: #212529;
+    line-height: 33px;
+
+}
+
+.birth-date p {
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.aboutMe {
+    /* padding: 5px 10px; */
+    margin-top: -15px;
+
+}
+
+.aboutMe h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+}
+
+.aboutMe p {
+    line-height: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #212529;
+}
+
+.education h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+
+.education span {
+    line-height: 10px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529cf;
+}
+
+.education h3 {
+    padding-top: 3px;
+    line-height: 15px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #212529;
+}
+
+.education p {
+    line-height: 14px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #212529;
+}
+
+.languages h2 {
+    padding: 6px 0px;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+
+.languages p {
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+.languages .az {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.languages .tr {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.languages .eng {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.languages .az::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    top: 25px;
+    left: 0px;
+    background-color: rgb(132, 80, 80);
+    border: 1px solid rgb(75, 33, 33);
+}
+
+.languages .eng::after {
+    position: absolute;
+    content: "";
+    width: 75%;
+    height: 6px;
+    top: 25px;
+    left: 0px;
+    background-color: rgb(132, 80, 80);
+    border: 1px solid rgb(75, 33, 33);
+}
+
+.languages .eng::before {
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 6px;
+    top: 25px;
+    left: 75%;
+    background-color: rgb(134, 122, 122);
+    border: 1px solid rgb(75, 33, 33);
+}
+
+.languages .tr::after {
+    position: absolute;
+    content: "";
+    width: 88%;
+    height: 6px;
+    top: 25px;
+    left: 0px;
+    background-color: rgb(132, 80, 80);
+    border: 1px solid rgb(75, 33, 33);
+}
+
+.languages .tr::before {
+    position: absolute;
+    content: "";
+    width: 12%;
+    height: 6px;
+    top: 25px;
+    left: 88%;
+    background-color: rgb(134, 122, 122);
+    border: 1px solid rgb(75, 33, 33);
+}
+
+.comp-skills h2 {
+    margin-top: -13px;
+    padding: 8px 0px;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+
+.comp-skills p {
+    line-height: 17px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comp-skills span {
+    padding: 0px;
+    margin: 0px !important;
+    line-height: 0px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comp-skills .doc::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 5px;
+    top: 6px;
+    left: 80px;
+    background-color: rgb(130, 110, 110);
+    border: 1px solid transparent;
+}
+
+.comp-skills .pp::before {
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 5px;
+    top: 16px;
+    left: 80px;
+    background-color: rgb(130, 110, 110);
+    border: 1px solid transparent;
+}
+
+.comp-skills .db::before {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 5px;
+    top: 6px;
+    left: 80px;
+    background-color: rgb(130, 110, 110);
+    border: 1px solid transparent;
+}
+
+.comp-skills .xl::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 5px;
+    top: 6px;
+    left: 80px;
+    background-color: rgb(130, 110, 110);
+    border: 1px solid transparent;
+}
+
+.pr-skills h2 {
+    padding: 10px 0px;
+    padding-top:15px ;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+
+.pr-skills p {
+    padding: 0px;
+    margin: 0px -20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.pr-skills .right{
+    margin-left: 0px;
+}
+.hobbies h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+.hobbies p {
+    padding-top: 4px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+  color: #212529;
+}
+.contact .col-5 p{
+    padding: 0px;
+    margin-left: -23px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    line-height: 0px;
+    color: #212529;
+  }
+.contact p{
+    margin-left: -23px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact i{
+    padding-right: 3px;
+}
+.contact .gmail {
+    padding: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.contact .tel{
+    padding: 0px;
+    margin-left: 54.3px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
